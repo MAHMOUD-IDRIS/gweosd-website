@@ -1,259 +1,429 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0b5b4f" />
-  <meta name="description" content="GWEOSD - Global Women Entrepreneurs Organization for Sustainable Development. A women-led nonprofit supporting entrepreneurship, recovery, leadership and sustainable development in Sudan." />
+  <meta name="theme-color" content="#063f37" />
+  <meta name="description" content="GWEOSD — Global Women Entrepreneurs Organization for Sustainable Development. A Sudanese voluntary, non-profit and non-political organization working for inclusive sustainable development, recovery and community empowerment." />
   <meta property="og:title" content="GWEOSD | Global Women Entrepreneurs Organization for Sustainable Development" />
-  <meta property="og:description" content="Empowerment, leadership, sustainability and impact." />
-  <meta property="og:image" content="assets/img/gweosd-logo.png" />
+  <meta property="og:description" content="We invest in women, build human capacity, empower communities, and advance sustainable development." />
+  <meta property="og:image" content="assets/img/social-preview.jpg" />
   <meta property="og:type" content="website" />
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link rel="stylesheet" href="styles.css" />
-  <title>GWEOSD | Global Women Entrepreneurs Organization for Sustainable Development</title>
+  <title>GWEOSD | منظمة سيدات ورائدات الأعمال العالمية للتنمية المستدامة</title>
 </head>
 <body>
-  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
 
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="GWEOSD home">
-        <img src="assets/img/gweosd-mark.png" alt="GWEOSD emblem" />
-        <span class="brand-copy">
-          <strong>GWEOSD</strong>
-          <small data-i18n="brand.short">Women • Enterprise • Sustainability</small>
-        </span>
+        <img src="assets/img/gweosd-mark.jpg" alt="GWEOSD emblem" />
+        <span><strong>GWEOSD</strong><small class="lang ar">تنمية شاملة • تمكين • استدامة</small><small class="lang en">Inclusive development • empowerment • sustainability</small></span>
       </a>
 
-      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="فتح القائمة">
         <span></span><span></span><span></span>
       </button>
 
       <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#programs" data-i18n="nav.programs">Programs</a>
-        <a href="#impact" data-i18n="nav.impact">Impact</a>
-        <a href="#founder" data-i18n="nav.founder">Founder</a>
-        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="#identity"><span class="lang ar">هويتنا</span><span class="lang en">Identity</span></a>
+        <a href="#official-about"><span class="lang ar">من نحن</span><span class="lang en">About</span></a>
+        <a href="#work"><span class="lang ar">مجالات العمل</span><span class="lang en">Our work</span></a>
+        <a href="#approach"><span class="lang ar">كيف نعمل</span><span class="lang en">Approach</span></a>
+        <a href="#contact"><span class="lang ar">تواصل</span><span class="lang en">Contact</span></a>
       </nav>
 
-      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">العربية</button>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">English</button>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero section-pad">
-      <div class="hero-orb hero-orb-a" aria-hidden="true"></div>
-      <div class="hero-orb hero-orb-b" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <div class="eyebrow" data-i18n="hero.eyebrow">Empowerment • Leadership • Sustainability • Impact</div>
-          <h1 data-i18n="hero.title">Global Women Entrepreneurs Organization for Sustainable Development</h1>
-          <p class="hero-lead" data-i18n="hero.lead">A women-led nonprofit advancing entrepreneurship, recovery, self-reliance and sustainable development in Sudan.</p>
-          <p class="hero-tagline" data-i18n="hero.tagline">From relief to ownership. From need to self-reliance.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdX2hirrXFvqdhuylFfF2Cf5Be0JFQV0zEkDz3DdsgaZJVn3w/viewform?usp=publish-editor" data-i18n="cta.join">Become a Member</a>
-            <a class="btn btn-secondary" href="#programs" data-i18n="cta.programs">Explore Our Programs</a>
-          </div>
-          <div class="trust-row" aria-label="Organization highlights">
-            <span data-i18n="trust.registered">Registered nonprofit in Sudan</span>
-            <span data-i18n="trust.womenled">Women-led</span>
-            <span>SDG 5 • 8 • 12 • 13</span>
-          </div>
+    <section class="hero">
+      <div class="hero-glow glow-a"></div><div class="hero-glow glow-b"></div>
+      <div class="container hero-card">
+        <div class="hero-kicker reveal">
+          <p class="eyebrow lang ar">منظمة سودانية طوعية • غير ربحية • غير سياسية</p>
+          <p class="eyebrow lang en">Sudanese voluntary • non-profit • non-political</p>
         </div>
         <div class="hero-visual reveal">
-          <div class="logo-card">
-            <img src="assets/img/gweosd-logo.png" alt="GWEOSD logo" />
+          <img src="assets/img/gweosd-logo.png" alt="GWEOSD logo" />
+        </div>
+        <div class="hero-copy reveal">
+          <h1 class="lang ar">منظمة سيدات ورائدات الأعمال العالمية للتنمية المستدامة</h1>
+          <h1 class="lang en">Global Women Entrepreneurs Organization for Sustainable Development</h1>
+          <p class="hero-lead lang ar">اسمٌ يعكس ريادة المرأة في التنمية، ورسالةٌ تتسع للإنسان والمجتمع بكل فئاته.</p>
+          <p class="hero-lead lang en">A name that reflects women’s leadership in development, with a mission that embraces people and communities in all their diversity.</p>
+          <p class="hero-manifesto lang ar">نستثمر في المرأة، نبني الإنسان، نمكّن المجتمع، ونصنع التنمية المستدامة.</p>
+          <p class="hero-manifesto lang en">We invest in women, build human capacity, empower communities, and advance sustainable development.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#identity"><span class="lang ar">استكشف هويتنا</span><span class="lang en">Explore our identity</span></a>
+            <a class="btn ghost" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdX2hirrXFvqdhuylFfF2Cf5Be0JFQV0zEkDz3DdsgaZJVn3w/viewform?usp=publish-editor"><span class="lang ar">طلب العضوية</span><span class="lang en">Membership form</span></a>
           </div>
-          <div class="floating-note">
-            <strong data-i18n="hero.noteTitle">Partners in building. Pioneers in giving.</strong>
-            <span data-i18n="hero.noteText">Creating pathways from vulnerability to economic participation and leadership.</span>
+          <div class="hero-meta">
+            <span>GWEOSD</span><span>gweosd.org</span><span>info@gweosd.org</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-pad about" id="about">
+    <section class="quick-nav" aria-label="Page sections">
+      <div class="container quick-nav-inner">
+        <a href="#official-about"><b>01</b><span class="lang ar">من نحن</span><span class="lang en">Who we are</span></a>
+        <a href="#vision"><b>02</b><span class="lang ar">الرؤية والرسالة</span><span class="lang en">Vision & mission</span></a>
+        <a href="#work"><b>03</b><span class="lang ar">نطاق العمل</span><span class="lang en">Scope of work</span></a>
+        <a href="#people"><b>04</b><span class="lang ar">لمن نعمل</span><span class="lang en">Who we serve</span></a>
+        <a href="#approach"><b>05</b><span class="lang ar">المنهج والشراكات</span><span class="lang en">Approach & partnerships</span></a>
+      </div>
+    </section>
+
+    <section class="identity section-pad" id="identity">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow" data-i18n="about.eyebrow">Who we are</span>
-          <h2 data-i18n="about.title">Building sustainable opportunity through women’s leadership</h2>
-          <p data-i18n="about.text">GWEOSD is a women-led nonprofit organization officially registered in Sudan. It delivers development and entrepreneurship programs for women and men in rural and urban communities affected by conflict, with a focus on recovery, peace and long-term self-reliance.</p>
+          <span class="eyebrow lang ar">هويتنا</span><span class="eyebrow lang en">Our identity</span>
+          <h2 class="lang ar">اسمنا يعكس هويتنا… ورسالتنا تتسع للجميع</h2>
+          <h2 class="lang en">Our name reflects our identity — our mission embraces everyone</h2>
         </div>
 
-        <div class="pillars-grid">
-          <article class="pillar reveal">
-            <div class="icon-badge" aria-hidden="true">01</div>
-            <h3 data-i18n="pillar.empower.title">Economic empowerment</h3>
-            <p data-i18n="pillar.empower.text">Support productive asset ownership, income generation and stronger small and medium enterprises.</p>
+        <div class="identity-grid">
+          <article class="identity-story reveal">
+            <div class="lang ar prose">
+              <p>يحمل اسم منظمة سيدات ورائدات الأعمال العالمية للتنمية المستدامة دلالة واضحة على اهتمام المنظمة بالنساء ورائدات الأعمال ودورهن في التنمية، لكنه لا يمثل حصراً للفئة التي تعمل المنظمة من أجلها، ولا يعني أن برامجها أو شراكاتها مقتصرة على النساء.</p>
+              <p>فالمنظمة تنطلق من الإيمان بأن تمكين المرأة جزء أساسي من تمكين المجتمع، وأن التنمية المستدامة لا يمكن أن تتحقق من خلال فئة واحدة، وإنما من خلال مشاركة جميع أفراد المجتمع ومؤسساته.</p>
+              <p>ومن هنا فإن اسم المنظمة يعبّر عن إحدى ركائز هويتها وخبرتها التنموية، بينما تعبر رسالتها عن نطاق أوسع يشمل الإنسان والمجتمع بكل فئاته.</p>
+            </div>
+            <div class="lang en prose">
+              <p>The name Global Women Entrepreneurs Organization for Sustainable Development clearly expresses our focus on women, women entrepreneurs, and their role in development. It does not, however, restrict the people we work for, nor does it mean our programs or partnerships are limited to women.</p>
+              <p>We believe that empowering women is an essential part of empowering society, and that sustainable development cannot be achieved through one group alone. It requires the participation of people, communities, institutions, and partners.</p>
+              <p>Our name therefore expresses a core part of our identity and development experience, while our mission reaches more broadly across people and communities in all their diversity.</p>
+            </div>
           </article>
-          <article class="pillar reveal">
-            <div class="icon-badge" aria-hidden="true">02</div>
-            <h3 data-i18n="pillar.lead.title">Women’s leadership</h3>
-            <p data-i18n="pillar.lead.text">Prepare women leaders with practical skills, confidence, networks and opportunities to lead.</p>
+
+          <aside class="identity-quote reveal">
+            <span class="lang ar">من المرأة إلى المجتمع…<br/>ومن المجتمع إلى التنمية</span>
+            <span class="lang en">From women to community…<br/>from community to development</span>
+          </aside>
+        </div>
+
+        <div class="identity-columns">
+          <article class="story-card reveal">
+            <h3 class="lang ar">من المرأة إلى المجتمع</h3><h3 class="lang en">From women to community</h3>
+            <div class="lang ar prose">
+              <p>تؤمن المنظمة بأن المرأة ليست جزيرة منفصلة عن مجتمعها؛ فهي أم، وابنة، وزوجة، ومربية، وموظفة، ومزارعة، وحرفية، ورائدة أعمال، وقائدة مجتمع، كما أن الرجل شريك أساسي في الأسرة والاقتصاد والمجتمع.</p>
+              <p>لذلك لا تنظر المنظمة إلى تمكين المرأة باعتباره هدفاً منفصلاً عن المجتمع، وإنما باعتباره مدخلاً من مداخل التنمية الشاملة.</p>
+            </div>
+            <div class="lang en prose">
+              <p>We do not see women as separate from their communities. Women participate in family life, education, agriculture, skilled work, enterprise, employment and community leadership, while men are also essential partners in families, the economy and society.</p>
+              <p>Women’s empowerment is therefore not treated as a goal detached from society; it is one important pathway toward inclusive development.</p>
+            </div>
           </article>
-          <article class="pillar reveal">
-            <div class="icon-badge" aria-hidden="true">03</div>
-            <h3 data-i18n="pillar.innovation.title">Entrepreneurship & innovation</h3>
-            <p data-i18n="pillar.innovation.text">Develop entrepreneurial capabilities, nurture innovation and connect ideas with sustainable pathways.</p>
-          </article>
-          <article class="pillar reveal">
-            <div class="icon-badge" aria-hidden="true">04</div>
-            <h3 data-i18n="pillar.green.title">Sustainability & recovery</h3>
-            <p data-i18n="pillar.green.text">Promote environmentally responsible practices and support post-war recovery and resilient livelihoods.</p>
+
+          <article class="story-card reveal">
+            <h3 class="lang ar">فلسفتنا</h3><h3 class="lang en">Our philosophy</h3>
+            <blockquote class="lang ar">«اسمنا يركز على قوة المرأة في صناعة التنمية، ورسالتنا تشمل الإنسان والمجتمع كله.»</blockquote>
+            <blockquote class="lang en">“Our name highlights women’s strength in shaping development; our mission includes people and society as a whole.”</blockquote>
+            <div class="lang ar prose">
+              <p>فالمنظمة لا تريد فقط أن تكون المرأة مستفيدة من التنمية، بل تسعى إلى أن تكون صانعة للفرص وقائدة للحلول وشريكة في بناء مجتمعها.</p>
+              <p>وفي الوقت نفسه، تدعو الرجال والشباب والمؤسسات والقطاع الخاص والجامعات والمجتمع المدني والجهات الحكومية والشركاء الدوليين إلى المشاركة في هذه العملية؛ لأن التنمية التي تستبعد المجتمع لا يمكن أن تكون تنمية مستدامة.</p>
+            </div>
+            <div class="lang en prose">
+              <p>We do not want women to be only beneficiaries of development. We work for women to become creators of opportunity, leaders of solutions, and partners in building their communities.</p>
+              <p>At the same time, we invite men, youth, institutions, the private sector, universities, civil society, government entities and international partners to participate, because development that excludes society cannot be sustainable.</p>
+            </div>
           </article>
         </div>
+
+        <article class="name-card reveal">
+          <div>
+            <span class="eyebrow lang ar">لماذا نحافظ على اسم المنظمة؟</span><span class="eyebrow lang en">Why keep the organization’s name?</span>
+            <h3 class="lang ar">الاسم بوابة لهويتنا، وليس حدوداً لعملنا.</h3>
+            <h3 class="lang en">The name is a doorway to our identity, not a boundary around our work.</h3>
+          </div>
+          <div class="lang ar prose">
+            <p>إن اسم المنظمة يمثل هويتها ورسالتها التاريخية في دعم النساء ورائدات الأعمال، ولا يتعارض ذلك مع اتساع نطاق عملها.</p>
+            <p>قوة المنظمة تكمن في الجمع بين هوية واضحة ومميزة في تمكين المرأة وريادة الأعمال، ورسالة تنموية شاملة تخدم جميع فئات المجتمع.</p>
+          </div>
+          <div class="lang en prose">
+            <p>The organization’s name represents its identity and its longstanding commitment to women and women entrepreneurs. That identity does not conflict with a broad scope of work.</p>
+            <p>Our strength lies in combining a distinctive identity in women’s empowerment and entrepreneurship with an inclusive development mission serving all parts of society.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="section-pad vision-section">
-      <div class="container vision-grid">
-        <article class="vision-card reveal">
-          <span class="card-kicker" data-i18n="vision.label">Vision</span>
-          <h2 data-i18n="vision.title">A future shaped by women entrepreneurs</h2>
-          <p data-i18n="vision.text">A community led by women entrepreneurs who can create sustainable solutions and build an inclusive future for development.</p>
-        </article>
-        <article class="vision-card mission reveal">
-          <span class="card-kicker" data-i18n="mission.label">Mission</span>
-          <h2 data-i18n="mission.title">Move from assistance to ownership</h2>
-          <p data-i18n="mission.text">Empower women and girls affected by war and displacement through productive assets, capacity building, leadership development, innovation and entrepreneurship.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-pad programs" id="programs">
+    <section class="official-about section-pad" id="official-about">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow" data-i18n="programs.eyebrow">Programs & pathways</span>
-          <h2 data-i18n="programs.title">Practical pathways to leadership, enterprise and resilience</h2>
+          <span class="eyebrow lang ar">التعريف الرسمي الشامل</span><span class="eyebrow lang en">Comprehensive official profile</span>
+          <h2 class="lang ar">من نحن</h2><h2 class="lang en">Who we are</h2>
+          <p class="bismillah lang ar">بسم الله الرحمن الرحيم</p>
+          <p class="bismillah lang en">In the name of God, the Most Gracious, the Most Merciful.</p>
         </div>
 
-        <div class="program-grid">
-          <article class="program-card reveal">
-            <span class="program-num">01</span>
-            <h3 data-i18n="program.leadership.title">Women’s Leadership Program</h3>
-            <p data-i18n="program.leadership.text">Leadership preparation, confidence building, networking and practical development for emerging women leaders.</p>
-          </article>
-          <article class="program-card reveal">
-            <span class="program-num">02</span>
-            <h3 data-i18n="program.displaced.title">Empowerment Pathway for Displaced Women</h3>
-            <p data-i18n="program.displaced.text">Support for war-affected and displaced women to rebuild livelihoods, skills and economic independence.</p>
-          </article>
-          <article class="program-card reveal">
-            <span class="program-num">03</span>
-            <h3 data-i18n="program.sme.title">Women-led Enterprise Support</h3>
-            <p data-i18n="program.sme.text">Development and strengthening of women-led small and medium enterprises, including affected projects.</p>
-          </article>
-          <article class="program-card reveal">
-            <span class="program-num">04</span>
-            <h3 data-i18n="program.innovation.title">Entrepreneurship & Innovation Pathway</h3>
-            <p data-i18n="program.innovation.text">Entrepreneurship training, innovation support and connections that help ideas become viable initiatives.</p>
-          </article>
-        </div>
-
-        <div class="method-grid">
-          <div class="method-copy reveal">
-            <span class="eyebrow" data-i18n="method.eyebrow">Our methodology</span>
-            <h2 data-i18n="method.title">Ownership, gradual support and inclusion</h2>
-            <p data-i18n="method.text">Our approach combines asset-based empowerment, gradual support, inclusion, community networking, skills development and sustainable economic and environmental practices.</p>
+        <div class="about-lead reveal">
+          <div class="lang ar prose">
+            <p>منظمة سيدات ورائدات الأعمال العالمية للتنمية المستدامة هي منظمة سودانية طوعية، غير ربحية وغير سياسية، تعمل من أجل التنمية المستدامة الشاملة وتمكين الإنسان والمجتمع، وتطوير حلول عملية تسهم في التعافي والاستقرار والنمو.</p>
+            <p>ولا يقتصر عمل المنظمة على المجال الاقتصادي أو ريادة الأعمال، بل يمتد إلى مختلف المجالات التي تمس حياة الإنسان وقدرته على التعافي والنمو والاستقرار، بما يشمل الصحة والتعليم والمياه والإصحاح والبيئة والحماية الاجتماعية وبناء السلام والتعافي وإعادة الإعمار، إلى جانب التمكين الاقتصادي وريادة الأعمال وبناء القدرات والابتكار.</p>
+            <p>وتنطلق المنظمة من قناعة بأن المرأة شريك أساسي في التنمية وصناعة القرار والإنتاج والابتكار، وأن تمكينها ينعكس على الأسرة والمجتمع، مع التأكيد في الوقت نفسه على أن التنمية مسؤولية مشتركة يشارك فيها جميع أفراد المجتمع ومؤسساته.</p>
           </div>
-          <div class="method-list reveal">
-            <div><span>✓</span><p data-i18n="method.item1">Empowerment based on asset ownership</p></div>
-            <div><span>✓</span><p data-i18n="method.item2">Gradual, practical support</p></div>
-            <div><span>✓</span><p data-i18n="method.item3">Inclusion and community participation</p></div>
-            <div><span>✓</span><p data-i18n="method.item4">Sustainable economic and environmental practice</p></div>
+          <div class="lang en prose">
+            <p>GWEOSD is a Sudanese voluntary, non-profit and non-political organization working for inclusive sustainable development, human and community empowerment, and practical solutions that contribute to recovery, stability and growth.</p>
+            <p>Our work is not limited to economic development or entrepreneurship. It extends across areas that affect people’s ability to recover, grow and live with stability, including health, education, water and sanitation, the environment, social protection, peacebuilding, recovery and reconstruction, alongside economic empowerment, entrepreneurship, capacity building and innovation.</p>
+            <p>We believe women are essential partners in development, decision-making, production and innovation, and that their empowerment strengthens families and communities. At the same time, development is a shared responsibility involving all members of society and its institutions.</p>
+          </div>
+          <div class="about-read-more-row">
+            <a class="btn about-read-more" href="about.html">
+              <span class="lang ar">اقرأ المزيد عنّا</span>
+              <span class="lang en">Read more about us</span>
+              <span class="about-arrow" aria-hidden="true">↗</span>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-pad target-section">
-      <div class="container target-grid">
+    <section class="vision-band section-pad" id="vision">
+      <div class="container feature-grid">
+        <article class="feature-card gold reveal">
+          <span>03</span><h2 class="lang ar">رؤيتنا</h2><h2 class="lang en">Our vision</h2>
+          <p class="lang ar">مجتمعات سودانية قادرة على الصمود والتعافي والنمو، يشارك فيها جميع أفراد المجتمع في صناعة التنمية، وتقود فيها النساء ورائدات الأعمال مسارات التمكين والإنتاج والابتكار، في بيئة يسودها السلام والتماسك والاستدامة.</p>
+          <p class="lang en">Resilient Sudanese communities able to recover and grow, where all members of society participate in development and women and women entrepreneurs lead pathways of empowerment, production and innovation in an environment of peace, cohesion and sustainability.</p>
+        </article>
+        <article class="feature-card green reveal">
+          <span>04</span><h2 class="lang ar">رسالتنا</h2><h2 class="lang en">Our mission</h2>
+          <p class="lang ar">تمكين الإنسان والمجتمع من بناء مستقبل أكثر استقراراً وإنتاجية واستدامة، من خلال برامج ومشروعات متكاملة في التنمية الاقتصادية والاجتماعية والإنسانية والبيئية، وبناء القدرات، وريادة الأعمال، والصحة، والتعليم، والمياه والإصحاح، وحماية البيئة، والحماية الاجتماعية، وبناء السلام والتعافي وإعادة الإعمار، مع تطوير شراكات فعالة على المستويات المحلية والوطنية والإقليمية والدولية.</p>
+          <p class="lang en">To empower people and communities to build a more stable, productive and sustainable future through integrated economic, social, humanitarian and environmental development; capacity building; entrepreneurship; health; education; water and sanitation; environmental protection; social protection; peacebuilding; recovery and reconstruction; and effective local, national, regional and international partnerships.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="philosophy section-pad" id="philosophy">
+      <div class="container split-layout">
+        <div class="split-title reveal">
+          <span class="big-num">05</span>
+          <span class="eyebrow lang ar">فلسفتنا التنموية</span><span class="eyebrow lang en">Development philosophy</span>
+          <h2 class="lang ar">من الاحتياج إلى التمكين، ومن التعافي إلى التنمية.</h2>
+          <h2 class="lang en">From need to empowerment, from recovery to development.</h2>
+        </div>
+        <div class="lang ar prose reveal">
+          <p>تنطلق فلسفة المنظمة من تحويل الأزمات والتحديات إلى فرص للتعافي والإنتاج والتنمية.</p>
+          <p>ولا تتوقف المنظمة عند الاستجابة للاحتياجات، بل تسعى إلى بناء القدرة على الاعتماد على الذات، وتطوير سبل كسب العيش، ونقل المعرفة والمهارات، وربط الأفراد والمجتمعات بالفرص والأسواق والخدمات والموارد والشراكات.</p>
+          <p>وتعمل على الانتقال من الاحتياج إلى التمكين، ومن المساعدة إلى الإنتاج، ومن فقدان الأصول إلى استعادة أو بناء أصول إنتاجية بديلة، ومن البطالة إلى الفرص، ومن العزلة إلى الشراكات، ومن آثار الأزمات إلى التعافي، ومن التعافي إلى التنمية المستدامة.</p>
+        </div>
+        <div class="lang en prose reveal">
+          <p>Our development philosophy is rooted in transforming crises and challenges into opportunities for recovery, production and development.</p>
+          <p>We do not stop at responding to immediate needs. We seek to build self-reliance, strengthen livelihoods, transfer knowledge and skills, and connect people and communities with opportunities, markets, services, resources and partnerships.</p>
+          <p>We work to move from need to empowerment, from assistance to production, from lost assets to restored or alternative productive assets, from unemployment to opportunity, from isolation to partnership, from the effects of crisis to recovery, and from recovery to sustainable development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="container">
         <div class="section-heading reveal">
-          <span class="eyebrow" data-i18n="target.eyebrow">Who we serve</span>
-          <h2 data-i18n="target.title">People with ideas, experience and the determination to rebuild</h2>
-          <p data-i18n="target.text">Our target groups include women aged 15–75, women affected by conflict, university graduates, innovators and experienced professionals.</p>
+          <span class="eyebrow">06</span>
+          <h2 class="lang ar">نطاق عملنا</h2><h2 class="lang en">Our scope of work</h2>
+          <p class="lang ar">مجالات مترابطة تمس حياة الإنسان وقدرة المجتمع على التعافي والإنتاج والاستقرار.</p>
+          <p class="lang en">Interconnected areas that shape people’s lives and communities’ ability to recover, produce and build stability.</p>
         </div>
-        <div class="target-chips reveal">
-          <span data-i18n="target.chip1">Women & girls</span>
-          <span data-i18n="target.chip2">War-affected communities</span>
-          <span data-i18n="target.chip3">University graduates</span>
-          <span data-i18n="target.chip4">Innovators</span>
-          <span data-i18n="target.chip5">Entrepreneurs</span>
-          <span data-i18n="target.chip6">Experienced professionals</span>
+        <div class="work-grid">
+          <article><b>01</b><h3 class="lang ar">التمكين الاقتصادي وريادة الأعمال</h3><h3 class="lang en">Economic empowerment & entrepreneurship</h3><p class="lang ar">المشروعات الصغيرة والمتوسطة وسبل كسب العيش.</p><p class="lang en">Small and medium enterprises and sustainable livelihoods.</p></article>
+          <article><b>02</b><h3 class="lang ar">الصحة والرفاه المجتمعي</h3><h3 class="lang en">Health & community wellbeing</h3><p class="lang ar">الصحة والوقاية والتوعية وتعزيز الرفاه المجتمعي.</p><p class="lang en">Health, prevention, awareness and community wellbeing.</p></article>
+          <article><b>03</b><h3 class="lang ar">التعليم وبناء القدرات</h3><h3 class="lang en">Education & capacity building</h3><p class="lang ar">التعليم والتدريب والتأهيل وبناء القدرات.</p><p class="lang en">Education, training, qualification and capacity building.</p></article>
+          <article><b>04</b><h3 class="lang ar">المياه والإصحاح والنظافة</h3><h3 class="lang en">Water, sanitation & hygiene</h3><p class="lang ar">توفير المياه الآمنة وتحسين الوصول إلى خدمات المياه والإصحاح.</p><p class="lang en">Safe water and improved access to water and sanitation services.</p></article>
+          <article><b>05</b><h3 class="lang ar">البيئة والتنمية الخضراء</h3><h3 class="lang en">Environment & green development</h3><p class="lang ar">العمل المناخي والإدارة المستدامة للموارد.</p><p class="lang en">Climate action and sustainable resource management.</p></article>
+          <article><b>06</b><h3 class="lang ar">الأمن الغذائي والزراعة</h3><h3 class="lang en">Food security & agriculture</h3><p class="lang ar">الزراعة والثروة الحيوانية والدواجن والأسماك والتصنيع الغذائي.</p><p class="lang en">Agriculture, livestock, poultry, fisheries and food processing.</p></article>
+          <article><b>07</b><h3 class="lang ar">الحماية والوقاية من العنف</h3><h3 class="lang en">Protection & violence prevention</h3><p class="lang ar">حماية النساء والأطفال ومسارات الإحالة والحماية.</p><p class="lang en">Protection of women and children, prevention and referral pathways.</p></article>
+          <article><b>08</b><h3 class="lang ar">بناء السلام والتماسك</h3><h3 class="lang en">Peacebuilding & social cohesion</h3><p class="lang ar">بناء السلام والتماسك والسلم الاجتماعي.</p><p class="lang en">Peacebuilding, cohesion and social peace.</p></article>
+          <article><b>09</b><h3 class="lang ar">التعافي وإعادة الإعمار</h3><h3 class="lang en">Recovery & reconstruction</h3><p class="lang ar">التعافي وإعادة الإعمار وسبل كسب العيش.</p><p class="lang en">Recovery, reconstruction and livelihoods.</p></article>
+          <article><b>10</b><h3 class="lang ar">الابتكار والبحث</h3><h3 class="lang en">Innovation & research</h3><p class="lang ar">تطوير حلول عملية قابلة للتوسع.</p><p class="lang en">Developing practical solutions that can scale.</p></article>
+          <article><b>11</b><h3 class="lang ar">الحرف وسلاسل القيمة</h3><h3 class="lang en">Crafts & value chains</h3><p class="lang ar">الحرف والمنتجات المحلية وسلاسل القيمة.</p><p class="lang en">Crafts, local products and value-chain development.</p></article>
+          <article><b>12</b><h3 class="lang ar">المبادرات والشراكات</h3><h3 class="lang en">Community initiatives & partnerships</h3><p class="lang ar">المبادرات المجتمعية والشراكات متعددة القطاعات.</p><p class="lang en">Community initiatives and multi-sector partnerships.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section-pad impact" id="impact">
-      <div class="container impact-grid">
-        <div class="impact-copy reveal">
-          <span class="eyebrow light" data-i18n="impact.eyebrow">Expected impact</span>
-          <h2 data-i18n="impact.title">Stronger livelihoods. Stronger leadership. Stronger communities.</h2>
-          <p data-i18n="impact.text">GWEOSD aims to support sustainable women-led projects, increase income and economic independence, reactivate affected enterprises and reduce long-term reliance on aid.</p>
-          <div class="impact-list">
-            <span data-i18n="impact.item1">Sustainable women-led projects</span>
-            <span data-i18n="impact.item2">Increased income and self-reliance</span>
-            <span data-i18n="impact.item3">Reactivation of affected enterprises</span>
-            <span data-i18n="impact.item4">Reduced reliance on aid</span>
+    <section class="people section-pad" id="people">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">07</span><h2 class="lang ar">لمن نعمل؟</h2><h2 class="lang en">Who do we work with?</h2>
+          <p class="lang ar">تعمل المنظمة مع المجتمع بكل فئاته، ولا تحصر برامجها في فئة واحدة.</p>
+          <p class="lang en">We work with society in all its diversity and do not limit our programs to a single group.</p>
+        </div>
+        <div class="people-grid reveal">
+          <span class="lang ar">النساء والرجال</span><span class="lang en">Women and men</span>
+          <span class="lang ar">الفتيات والفتيان</span><span class="lang en">Girls and boys</span>
+          <span class="lang ar">الشباب</span><span class="lang en">Youth</span>
+          <span class="lang ar">الأطفال والأسر</span><span class="lang en">Children and families</span>
+          <span class="lang ar">كبار السن</span><span class="lang en">Older people</span>
+          <span class="lang ar">النازحون والمتأثرون بالحرب والأزمات</span><span class="lang en">Displaced and crisis-affected people</span>
+          <span class="lang ar">الأرامل وأسر المتوفين</span><span class="lang en">Widows and bereaved families</span>
+          <span class="lang ar">الأشخاص ذوو الإعاقة</span><span class="lang en">People with disabilities</span>
+          <span class="lang ar">الخريجون والباحثون عن فرص العمل</span><span class="lang en">Graduates and job seekers</span>
+          <span class="lang ar">أصحاب المشروعات والحرف والمهارات</span><span class="lang en">Entrepreneurs, artisans and skilled workers</span>
+          <span class="lang ar">المبتكرون وأصحاب المبادرات</span><span class="lang en">Innovators and initiative leaders</span>
+          <span class="lang ar">الفئات المحتاجة للحماية والتأهيل وإعادة الاندماج</span><span class="lang en">People needing protection, rehabilitation or reintegration</span>
+        </div>
+        <p class="people-note lang ar reveal">كما يشمل نطاق عمل المنظمة السجناء والمفرج عنهم، وفقاً لطبيعة البرامج والشراكات والقوانين والجهات المختصة.</p>
+        <p class="people-note lang en reveal">Our scope may also include prisoners and people released from prison, according to the nature of programs, partnerships, applicable laws and competent authorities.</p>
+      </div>
+    </section>
+
+    <section class="reintegration section-pad" id="reintegration">
+      <div class="container split-layout">
+        <div class="split-title reveal">
+          <span class="big-num">08</span><span class="eyebrow lang ar">إعادة التأهيل والاندماج</span><span class="eyebrow lang en">Rehabilitation & reintegration</span>
+          <h2 class="lang ar">جزء من بناء مجتمع أكثر أمناً واستقراراً وقدرة على التعافي.</h2>
+          <h2 class="lang en">Part of building a safer, more stable and resilient society.</h2>
+        </div>
+        <div class="lang ar prose reveal">
+          <p>تتعامل المنظمة مع إعادة التأهيل والاندماج باعتبارهما جزءاً من بناء مجتمع أكثر أمناً واستقراراً وقدرة على التعافي.</p>
+          <p>وتشمل مجالات العمل الممكنة التدريب والتعليم والتأهيل المهني، وريادة الأعمال والمشروعات الإنتاجية، وسبل كسب العيش، والدعم النفسي والاجتماعي من خلال المختصين، والتوعية بالحقوق والمسؤوليات، ودعم إعادة الاندماج الأسري والمجتمعي والاقتصادي، مع احترام القوانين والجهات المختصة وكرامة الإنسان.</p>
+        </div>
+        <div class="lang en prose reveal">
+          <p>We view rehabilitation and reintegration as part of building a safer, more stable society with greater capacity for recovery.</p>
+          <p>Possible areas of work include education, training and vocational qualification; entrepreneurship and productive projects; livelihoods; psychosocial support through qualified specialists; awareness of rights and responsibilities; and support for family, community and economic reintegration, while respecting the law, competent authorities and human dignity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach section-pad" id="approach">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">09</span><h2 class="lang ar">كيف نعمل؟</h2><h2 class="lang en">How we work</h2></div>
+        <div class="approach-grid">
+          <div class="approach-copy reveal">
+            <p class="lang ar">تعتمد المنظمة منهجاً يربط الإنسان بالمعرفة والإنتاج والخدمات والسوق والاستدامة. فالتدريب لا يكون غاية منفصلة، بل يتحول إلى معرفة قابلة للتطبيق، ثم إلى إنتاج أو خدمة، ثم إلى قيمة أو فرصة، وصولاً إلى أثر مستدام.</p>
+            <p class="lang en">Our approach connects people with knowledge, production, services, markets and sustainability. Training is not an isolated end; it becomes applicable knowledge, then production or service, then value or opportunity, and ultimately sustainable impact.</p>
           </div>
-        </div>
-        <div class="sdg-panel reveal">
-          <span class="small-label" data-i18n="sdg.label">Aligned with the Sustainable Development Goals</span>
-          <div class="sdg-grid">
-            <div><strong>SDG 5</strong><span data-i18n="sdg.5">Gender Equality</span></div>
-            <div><strong>SDG 8</strong><span data-i18n="sdg.8">Decent Work & Economic Growth</span></div>
-            <div><strong>SDG 12</strong><span data-i18n="sdg.12">Responsible Consumption & Production</span></div>
-            <div><strong>SDG 13</strong><span data-i18n="sdg.13">Climate Action</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section-pad founder" id="founder">
-      <div class="container founder-grid">
-        <div class="founder-photo-wrap reveal">
-          <img src="assets/img/founder-mona-badawi.jpg" alt="Mona Mohi El-Din Badawi, founder and vision holder" />
-          <div class="founder-ring" aria-hidden="true"></div>
-        </div>
-        <div class="founder-copy reveal">
-          <span class="eyebrow" data-i18n="founder.eyebrow">Founder & vision holder</span>
-          <h2 data-i18n="founder.name">Mona Mohi El-Din Badawi</h2>
-          <p class="arabic-name">منى محي الدين بدوي</p>
-          <p data-i18n="founder.text">The organization’s founding vision centers women as leaders of sustainable recovery and economic participation, with a launch point in El Obeid, North Kordofan.</p>
-          <blockquote data-i18n="founder.quote">“Partners in building. Pioneers in giving.”</blockquote>
+          <ol class="steps reveal">
+            <li><b>01</b><span class="lang ar">دراسة الاحتياجات</span><span class="lang en">Assess needs</span></li>
+            <li><b>02</b><span class="lang ar">المشاركة المجتمعية</span><span class="lang en">Engage communities</span></li>
+            <li><b>03</b><span class="lang ar">تصميم حلول عملية</span><span class="lang en">Design practical solutions</span></li>
+            <li><b>04</b><span class="lang ar">الاستفادة من قدرات الشركاء</span><span class="lang en">Leverage partner capabilities</span></li>
+            <li><b>05</b><span class="lang ar">نقل المعرفة والخبرات</span><span class="lang en">Transfer knowledge and expertise</span></li>
+            <li><b>06</b><span class="lang ar">تعبئة الموارد وبناء الشبكات</span><span class="lang en">Mobilize resources and networks</span></li>
+            <li><b>07</b><span class="lang ar">المتابعة وقياس الأثر</span><span class="lang en">Monitor and measure impact</span></li>
+            <li><b>08</b><span class="lang ar">تطوير المشروعات الناجحة وتوسيع نطاقها</span><span class="lang en">Scale successful projects</span></li>
+          </ol>
         </div>
       </div>
     </section>
 
-    <section class="section-pad join-section">
-      <div class="container join-card reveal">
+    <section class="partnerships section-pad" id="partnerships">
+      <div class="container feature-grid">
+        <article class="feature-card light reveal">
+          <span>10</span><h2 class="lang ar">الشراكات</h2><h2 class="lang en">Partnerships</h2>
+          <p class="lang ar">تؤمن المنظمة بأن التحديات التنموية المعقدة تحتاج إلى شراكات وتكامل في الأدوار، ولذلك تعمل على بناء علاقات تعاون مع الجهات الحكومية، والقطاع الخاص والشركات، والجامعات ومراكز البحث، والمنظمات الوطنية والدولية والجهات المانحة، والمؤسسات المالية، ورائدات ورواد الأعمال والخبراء، والمبادرات المجتمعية ووسائل الإعلام.</p>
+          <p class="lang en">Complex development challenges require partnership and complementary roles. We therefore build cooperation with government entities, the private sector and companies, universities and research centers, national and international organizations and donors, financial institutions, entrepreneurs and experts, community initiatives and the media.</p>
+          <p class="lang ar">وتهدف الشراكات إلى دمج الموارد والخبرات والمعرفة والفرص وتحويلها إلى برامج ومشروعات عملية ذات أثر قابل للقياس والاستدامة.</p>
+          <p class="lang en">Partnerships are intended to combine resources, expertise, knowledge and opportunities and turn them into practical programs and projects with measurable, sustainable impact.</p>
+        </article>
+        <article class="feature-card dark reveal">
+          <span>11</span><h2 class="lang ar">المرأة في رؤيتنا</h2><h2 class="lang en">Women in our vision</h2>
+          <p class="lang ar">تنظر المنظمة إلى المرأة باعتبارها صاحبة حق، وصانعة قرار، ومنتجة، ورائدة أعمال، ومبتكرة، وقائدة مجتمعية، وشريكاً في السلام والتنمية.</p>
+          <p class="lang en">We see women as rights-holders, decision-makers, producers, entrepreneurs, innovators, community leaders and partners in peace and development.</p>
+          <p class="lang ar">ويمثل تمكين المرأة مدخلاً مهماً للتنمية الشاملة، وليس بديلاً عن مشاركة الرجال والشباب والأسر والمؤسسات والمجتمع بأكمله في صناعة التنمية.</p>
+          <p class="lang en">Women’s empowerment is an important pathway to inclusive development, not a substitute for the participation of men, youth, families, institutions and society as a whole.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="values section-pad" id="values">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">12</span><h2 class="lang ar">قيمنا</h2><h2 class="lang en">Our values</h2></div>
+        <div class="values-grid reveal">
+          <span class="lang ar">النزاهة</span><span class="lang en">Integrity</span>
+          <span class="lang ar">الشفافية</span><span class="lang en">Transparency</span>
+          <span class="lang ar">المساءلة</span><span class="lang en">Accountability</span>
+          <span class="lang ar">كرامة الإنسان</span><span class="lang en">Human dignity</span>
+          <span class="lang ar">المشاركة</span><span class="lang en">Participation</span>
+          <span class="lang ar">عدم التمييز</span><span class="lang en">Non-discrimination</span>
+          <span class="lang ar">العدالة</span><span class="lang en">Justice</span>
+          <span class="lang ar">الابتكار</span><span class="lang en">Innovation</span>
+          <span class="lang ar">الاستقلالية</span><span class="lang en">Independence</span>
+          <span class="lang ar">المسؤولية</span><span class="lang en">Responsibility</span>
+          <span class="lang ar">العمل الجماعي</span><span class="lang en">Teamwork</span>
+          <span class="lang ar">الجودة</span><span class="lang en">Quality</span>
+          <span class="lang ar">الاستدامة</span><span class="lang en">Sustainability</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="sdg section-pad" id="sdg">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">13</span><h2 class="lang ar">ارتباطنا بالتنمية المستدامة</h2><h2 class="lang en">Our connection to sustainable development</h2></div>
+        <p class="section-intro lang ar reveal">تسهم المنظمة، بحسب طبيعة كل مشروع وبرنامج، في دعم أهداف التنمية المستدامة، بما في ذلك المجالات التالية:</p>
+        <p class="section-intro lang en reveal">According to the nature of each program and project, our work contributes to sustainable development across areas including:</p>
+        <div class="sdg-grid reveal">
+          <span class="lang ar">القضاء على الفقر والجوع</span><span class="lang en">Poverty and hunger</span>
+          <span class="lang ar">الصحة الجيدة</span><span class="lang en">Good health</span>
+          <span class="lang ar">التعليم الجيد</span><span class="lang en">Quality education</span>
+          <span class="lang ar">تمكين المرأة والمساواة</span><span class="lang en">Women’s empowerment and equality</span>
+          <span class="lang ar">العمل اللائق والنمو الاقتصادي</span><span class="lang en">Decent work and economic growth</span>
+          <span class="lang ar">الحد من أوجه عدم المساواة</span><span class="lang en">Reduced inequalities</span>
+          <span class="lang ar">الاستهلاك والإنتاج المسؤولان</span><span class="lang en">Responsible consumption and production</span>
+          <span class="lang ar">العمل المناخي</span><span class="lang en">Climate action</span>
+          <span class="lang ar">السلام والعدل والمؤسسات</span><span class="lang en">Peace, justice and institutions</span>
+          <span class="lang ar">الشراكات من أجل التنمية</span><span class="lang en">Partnerships for development</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="future section-pad" id="future">
+      <div class="container feature-grid">
+        <article class="feature-card green reveal"><span>14</span><h2 class="lang ar">رؤيتنا للمستقبل</h2><h2 class="lang en">Our future vision</h2>
+          <p class="lang ar">تسعى المنظمة إلى بناء نموذج سوداني قابل للتوسع في التنمية، يقوده الإنسان والمجتمع، ويجمع بين التمكين الاقتصادي والخدمات الاجتماعية والحماية والصحة والتعليم والمياه والبيئة والسلام والابتكار.</p>
+          <p class="lang en">We seek to build a scalable Sudanese model of development led by people and communities, bringing together economic empowerment, social services, protection, health, education, water, the environment, peace and innovation.</p>
+          <p class="lang ar">كما تسعى إلى أن تكون جسراً يربط القدرات السودانية بالفرص المحلية والإقليمية والدولية، وتحويل الموارد والمهارات والأفكار إلى حلول اقتصادية واجتماعية وإنسانية وبيئية مستدامة.</p>
+          <p class="lang en">We also aim to be a bridge connecting Sudanese capabilities with local, regional and international opportunities, turning resources, skills and ideas into sustainable economic, social, humanitarian and environmental solutions.</p>
+        </article>
+        <article class="feature-card gold reveal"><span>15</span><h2 class="lang ar">التزامنا</h2><h2 class="lang en">Our commitment</h2>
+          <p class="lang ar">تلتزم المنظمة بالعمل المسؤول والمهني والشفاف، واحترام كرامة الإنسان وحقوقه، وتعزيز المشاركة المجتمعية، وبناء شراكات قائمة على الوضوح وتكامل الأدوار.</p>
+          <p class="lang en">We are committed to responsible, professional and transparent work, respect for human dignity and rights, stronger community participation, and partnerships built on clarity and complementary roles.</p>
+          <p class="lang ar">ويقاس نجاح المنظمة بما تتركه من قدرات ومعرفة وفرص وأصول وشبكات ومؤسسات وأثر مستدام، وليس بعدد الأنشطة المنفذة فقط.</p>
+          <p class="lang en">We measure success by the capacities, knowledge, opportunities, assets, networks, institutions and sustainable impact that remain — not simply by the number of activities delivered.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="unifying section-pad" id="unifying">
+      <div class="container unifying-card reveal">
+        <span class="big-num">16</span>
         <div>
-          <span class="eyebrow light" data-i18n="join.eyebrow">Membership</span>
-          <h2 data-i18n="join.title">Join a growing community of women, entrepreneurs and development partners</h2>
-          <p data-i18n="join.text">Membership is open through the organization’s official registration form. Choose the appropriate membership type and submit your details online.</p>
+          <span class="eyebrow lang ar">رسالتنا الجامعة</span><span class="eyebrow lang en">Our unifying message</span>
+          <h2 class="lang ar">اسمنا يعبّر عن ريادة المرأة في التنمية، ورسالتنا تتسع للإنسان والمجتمع بكل فئاته.</h2>
+          <h2 class="lang en">Our name expresses women’s leadership in development; our mission embraces people and communities in all their diversity.</h2>
+          <p class="lang ar">نستثمر في المرأة، نبني الإنسان، نمكّن المجتمع، ونصنع التنمية المستدامة.</p>
+          <p class="lang en">We invest in women, build human capacity, empower communities, and advance sustainable development.</p>
         </div>
-        <a class="btn btn-gold" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdX2hirrXFvqdhuylFfF2Cf5Be0JFQV0zEkDz3DdsgaZJVn3w/viewform?usp=publish-editor" data-i18n="cta.form">Open Membership Form</a>
       </div>
     </section>
 
-    <section class="section-pad contact" id="contact">
-      <div class="container contact-grid">
-        <div class="section-heading reveal">
-          <span class="eyebrow" data-i18n="contact.eyebrow">Contact</span>
-          <h2 data-i18n="contact.title">Connect with GWEOSD</h2>
-          <p data-i18n="contact.text">For partnerships, programs, membership and general inquiries, contact the organization through the channels below.</p>
+    <section class="founder section-pad" id="founder">
+      <div class="container founder-card reveal">
+        <div class="founder-photo"><img src="assets/img/founder-mona-badawi.jpg" alt="Founder of GWEOSD" /></div>
+        <div>
+          <span class="eyebrow lang ar">المؤسسة وصاحبة الرؤية</span><span class="eyebrow lang en">Founder & vision holder</span>
+          <h2 class="lang ar">منى محي الدين بدوي</h2><h2 class="lang en">Mona Mohi El-Din Badawi</h2>
+          <p class="lang ar">تقود الرؤية التأسيسية للمنظمة نحو تنمية مستدامة تقودها الإرادة والمعرفة والشراكة، مع الاستثمار في طاقات النساء ورائدات الأعمال وخدمة المجتمع بكل فئاته.</p>
+          <p class="lang en">The founding vision places will, knowledge and partnership at the center of sustainable development, while investing in women and women entrepreneurs and serving communities in all their diversity.</p>
         </div>
-        <div class="contact-cards reveal">
-          <a class="contact-card" href="mailto:info@gweosd.org">
-            <span class="contact-icon">@</span>
-            <div><small data-i18n="contact.emailLabel">Email</small><strong>info@gweosd.org</strong></div>
-          </a>
-          <a class="contact-card" href="https://www.facebook.com/profile.php?id=61594741172172" target="_blank" rel="noopener">
-            <span class="contact-icon">f</span>
-            <div><small>Facebook</small><strong data-i18n="contact.facebook">Visit our page</strong></div>
-          </a>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy reveal">
+          <span class="eyebrow lang ar">تواصل وشراكات</span><span class="eyebrow lang en">Contact & partnerships</span>
+          <h2 class="lang ar">لنعمل معاً من أجل أثر مستدام.</h2><h2 class="lang en">Let’s work together for sustainable impact.</h2>
+          <p class="lang ar">للبرامج والشراكات والعضوية والاستفسارات العامة، يمكن التواصل عبر القنوات الرسمية التالية.</p>
+          <p class="lang en">For programs, partnerships, membership and general inquiries, use the official channels below.</p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="mailto:info@gweosd.org"><b>@</b><span><small class="lang ar">البريد الإلكتروني</small><small class="lang en">Email</small><strong>info@gweosd.org</strong></span></a>
+          <a target="_blank" rel="noopener" href="https://www.facebook.com/profile.php?id=61594741172172"><b>f</b><span><small>Facebook</small><strong class="lang ar">زيارة الصفحة الرسمية</strong><strong class="lang en">Visit official page</strong></span></a>
+          <a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdX2hirrXFvqdhuylFfF2Cf5Be0JFQV0zEkDz3DdsgaZJVn3w/viewform?usp=publish-editor"><b>+</b><span><small class="lang ar">العضوية</small><small class="lang en">Membership</small><strong class="lang ar">فتح استمارة العضوية</strong><strong class="lang en">Open membership form</strong></span></a>
         </div>
       </div>
     </section>
@@ -261,16 +431,8 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="assets/img/gweosd-mark.png" alt="" />
-        <div><strong>GWEOSD</strong><span data-i18n="footer.name">Global Women Entrepreneurs Organization for Sustainable Development</span></div>
-      </div>
-      <div class="footer-links">
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#programs" data-i18n="nav.programs">Programs</a>
-        <a href="#contact" data-i18n="nav.contact">Contact</a>
-      </div>
-      <p class="copyright">© <span id="year"></span> GWEOSD. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <div class="footer-brand"><img src="assets/img/gweosd-mark.jpg" alt="GWEOSD" /><div><strong>GWEOSD</strong><p class="lang ar">منظمة سيدات ورائدات الأعمال العالمية للتنمية المستدامة</p><p class="lang en">Global Women Entrepreneurs Organization for Sustainable Development</p></div></div>
+      <div class="footer-meta"><span>info@gweosd.org</span><span>gweosd.org</span><span>© <span id="year"></span> GWEOSD</span></div>
     </div>
   </footer>
 

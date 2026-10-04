@@ -1,39 +1,22 @@
-# GWEOSD bilingual website
+# GWEOSD Website
 
-Static bilingual (English / Arabic) website for **GWEOSD - Global Women Entrepreneurs Organization for Sustainable Development**.
+Redesigned bilingual (Arabic/English) static website for the Global Women Entrepreneurs Organization for Sustainable Development (GWEOSD).
 
-## Files
+## GitHub Pages
 
-- `index.html` - complete one-page site
-- `styles.css` - responsive styling
-- `script.js` - English/Arabic language switcher, mobile menu, simple scroll reveal
-- `assets/img/` - organization logo, emblem/favicon, founder image
+1. Upload **the contents of this folder** to the root of the GitHub repository.
+2. Keep `index.html`, `styles.css`, `script.js`, `CNAME`, and the `assets` folder at repository root.
+3. In GitHub: **Settings → Pages → Deploy from a branch → main → / (root)**.
+4. The included `CNAME` file sets the custom domain to `gweosd.org`.
+5. In GitHub Pages settings, enable **Enforce HTTPS** when the certificate is available.
 
-## Publish on GitHub Pages
+## Contact
 
-1. Create a new GitHub repository, for example `gweosd-website`.
-2. Upload all files and folders from this package to the repository root.
-3. In GitHub, open **Settings -> Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch `main` and folder `/ (root)`, then save.
-6. GitHub will publish the site at a `github.io` address.
+- Email: info@gweosd.org
+- Domain: gweosd.org
 
-## Connect `gweosd.org`
+No phone number is included because the supplied organization materials did not clearly identify an official organization phone number.
 
-After GitHub Pages is working, add the custom domain in **Settings -> Pages -> Custom domain** as:
 
-`gweosd.org`
-
-Then update DNS at your domain provider using the DNS records GitHub Pages shows for the custom-domain setup. Enable **Enforce HTTPS** after DNS is active.
-
-## Important content notes
-
-- Public email: `info@gweosd.org`
-- Membership form: linked directly from the site
-- Facebook page: linked directly from the site
-- No phone number is displayed because no organization phone number was present in the supplied materials.
-- The website uses the new GWEOSD branding and does not use the older SWAR name in public-facing copy.
-
-## Edit text
-
-All English and Arabic website wording is stored in `script.js` inside the `translations` object. This makes future changes easy without editing the layout.
+## About page
+The comprehensive official profile is in `about.html`. The main page links to it from the About section.
